@@ -84,13 +84,6 @@ The `Validator` class is responsible for comparing and evaluating the performanc
 
 ### 5. SciSpacy Entity Extraction
 
-- Install SciSpacy:
-
-    ```bash
-    pip install scispacy
-    python -m spacy download en_core_sci_sm
-    ```
-
 - Instantiate the `SciSpacyEntityExtractor` class in `concept_extractor_scispacy.py`:
 
     ```python
